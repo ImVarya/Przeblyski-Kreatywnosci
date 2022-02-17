@@ -1,0 +1,52 @@
+body {
+    background: rgb(210, 194, 231);
+}
+.square {
+    width: 500px;
+    height: 500px;
+    
+}
+.small-square {
+    width: 200px;
+    height: 200px;
+    
+}
+.black-border {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+.center {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+p {
+        
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%) }
+
+button {
+    background: transparent;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    top: -2%;
+    left: 1%;
+    bottom: 90%;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color:rgb(55, 81, 228);
+}
+   
+ 

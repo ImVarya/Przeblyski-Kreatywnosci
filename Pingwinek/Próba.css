@@ -1,0 +1,47 @@
+body {
+    background: bisque;
+}
+
+#Próba {
+    background: pink;
+    display: flex;
+    height: 450px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#Próba2 {
+    background: brown;
+    display: flex;
+    height: 450px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#zielony {
+background-color: green;
+}
+
+#czerwony {
+background-color: red;
+}
+
+#niebieski {
+background-color: blue;
+}
+
+#fioletowy {
+    background-color: violet;
+}
+
+#żółty {
+    background-color: yellow;
+}
+
+#pomarańczowy {
+    background-color: orange;
+}
+
