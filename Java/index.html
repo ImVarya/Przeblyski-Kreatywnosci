@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="java.js"></script>
 </head>
+
 <body>
-    
+    <h2>Java test</h2>
+    <div id="napisy">
+        <p id="demo">Zmiana tekstu przyciskiem</p>
+        <p id="par">Zmiana font-size</p>
+        <div id="myDiv">Zmienię kolor</div>
+    </div>
+    <div id="buttons">
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Zmieniony tekst!"'>Zmień
+            tekst!</button>
+        <button type="button" onclick="javascript:changeColor()">Zmień kolor!</button>
+        <button type="button" onclick='document.getElementById("par").style.fontSize = "50px"'>Zmień font-size!</button>
+    </div>
+
 </body>
+
 </html>
