@@ -6,3 +6,13 @@ function changeColor(){
     }
 }
 
+function changeText() {
+    var id = document.getElementsByName("button")[0].id;
+    if(id == 1) {
+        document.getElementById("demo").innerHTML = "Zmiana tekstu przyciskiem";
+        document.getElementsByName("button")[0].id = 0;
+    } else {
+        document.getElementById("demo").innerHTML = "Zmieniony tekst";
+        document.getElementsByName("button")[0].id = 1;
+    }
+}
