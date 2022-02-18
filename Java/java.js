@@ -18,9 +18,17 @@ function changeText() {
 }
 
 function changeFontsize() {
-    if (document.getElementById ("par").style.fontSize == "50px") {
+    if (document.getElementById("par").style.fontSize == "50px") {
         document.getElementById("par").style.fontSize = "30px";
     } else {
         document.getElementById("par").style.fontSize = "50px";
+    }
+}
+
+function changeDisplay() {
+    if (document.getElementById("gif").style.display == "block") {
+        document.getElementById("gif").style.display = "none";
+    } else {
+        document.getElementById("gif").style.display = "block";
     }
 }
