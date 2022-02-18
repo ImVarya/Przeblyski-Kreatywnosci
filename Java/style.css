@@ -8,7 +8,6 @@ body {
     background-image: url("https://cdn.wallpapersafari.com/58/31/e2DOgl.png");
     text-align: center;
     color: rgb(255, 243, 226);
-    
 }
 
 #napisy {
@@ -40,8 +39,8 @@ p {
 
 button {
     margin-top: 10%;
-    background-color: rgb(34, 148, 34);
-    height: 50px;
+    background-color: rgb(7, 78, 7);
+    height: 60px;
     width: 100px;
     text-align: center;
     font-size: 20px;

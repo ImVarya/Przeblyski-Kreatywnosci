@@ -34,3 +34,5 @@ function changeDisplay() {
 }
 
 document.getElementById("suma").innerHTML = 5 + 6;
+
+window.alert("You can do it!");
