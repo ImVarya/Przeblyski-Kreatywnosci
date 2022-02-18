@@ -32,3 +32,5 @@ function changeDisplay() {
         document.getElementById("gif").style.display = "block";
     }
 }
+
+document.getElementById("suma").innerHTML = 5 + 6;
