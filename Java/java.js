@@ -33,6 +33,21 @@ function changeDisplay() {
     }
 }
 
-document.getElementById("suma").innerHTML = 5 + 6;
+var x, y, z;
+x = 5;
+y = 6;
+z = x + y;
+document.getElementById("suma").innerHTML = "x + y = " + z * 10;
 
 window.alert("You can do it!");
+
+const liczba1 = 19;
+const liczba2 = 6;
+let total = liczba1 - liczba2;
+document.getElementById("total").innerHTML = "l1 - l2 = " + total;
+
+let a = "Robię" + " " + "rzeczy!";
+document.getElementById("napis").innerHTML = a;
+
+let b = "7" + 3 + 1;
+document.getElementById("var").innerHTML = b;
