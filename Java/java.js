@@ -44,10 +44,39 @@ window.alert("You can do it!");
 const liczba1 = 19;
 const liczba2 = 6;
 let total = liczba1 - liczba2;
-document.getElementById("total").innerHTML = "l1 - l2 = " + total;
+document.getElementById("total").innerHTML = "19 - 6 = " + total;
 
 let a = "Robię" + " " + "rzeczy!";
 document.getElementById("napis").innerHTML = a;
 
 let b = "7" + 3 + 1;
 document.getElementById("var").innerHTML = b;
+
+var c = 7;
+var d = ++c;
+document.getElementById("c").innerHTML = c;
+document.getElementById("d").innerHTML = d;
+
+var e = 19;
+e %= 6;
+document.getElementById("reszta").innerHTML = e;
+
+var text = "Myślę, że "
+text += "dobrze mi idzie!"
+document.getElementById("text").innerHTML = text;
+
+const animals = ["Kot", "Pies", "Koń"];
+document.getElementById("arr").innerHTML = animals[0];
+
+const gonsienic = {
+    firstName : "Gonsieniczek",
+    lastName : "Dziubeczek",
+    age : 23,
+    attribute : "handsome"
+};
+document.getElementById("object").innerHTML = gonsienic.firstName + " " + gonsienic.lastName + " is very " + gonsienic.attribute + "!";
+
+document.getElementById("typeof").innerHTML = typeof "Kot" + "<br>" + typeof 17;
+
+var f = 9 + 1 + " psów";
+document.getElementById("f").innerHTML = f;
