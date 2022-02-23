@@ -10,21 +10,32 @@ body {
     color: rgb(255, 243, 226);
 }
 
-#napisy {
+#allDivs {
     display: flex;
     height: 100%;
     width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#napisy {
+    display: flex;
+    height: 100%;
+    width: 50%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 40%;
 }
 
 #buttons {
     display: flex;
     height: 100%;
-    flex-direction: row;
+    width: 50%;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 55%;
 }
 
 h2 {

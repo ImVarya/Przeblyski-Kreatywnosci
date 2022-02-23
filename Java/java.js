@@ -100,3 +100,21 @@ document.getElementById("g").innerHTML = g;
 function mojaFunkcja(a, b) {
     return a * b;
 }
+
+function toCelsius(f) {
+    return (5 / 9) * (f - 32);
+}
+document.getElementById("temperatura").innerHTML = toCelsius(77) + " °C";
+
+function oClock() {
+    var id = document.getElementsByName("button")[7].id;
+    if(id == 2) {
+        document.getElementById("godzina").innerHTML = Date();
+        document.getElementById("godzina").style.display = "block";
+        document.getElementsByName("button")[7].id = 0;
+    } else {
+        document.getElementById("godzina").style.display = "none";
+        document.getElementsByName("button")[7].id = 2;
+    }
+}
+document.getElementById("debug").innerHTML = document.getElementsByName("button")[7].id;
