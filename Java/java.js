@@ -80,3 +80,23 @@ document.getElementById("typeof").innerHTML = typeof "Kot" + "<br>" + typeof 17;
 
 var f = 9 + 1 + " psów";
 document.getElementById("f").innerHTML = f;
+
+const fruits = {
+    name: "apples",
+    color: "red",
+    amount: 10,
+    applesAmount: function() {
+        return this.amount + " " + this.name;
+    }
+};
+document.getElementById("return").innerHTML = fruits.applesAmount();
+
+function myFunction(txt) {
+    document.getElementById("tekst").innerHTML = txt;
+}
+
+var g = mojaFunkcja(4.5, 2);
+document.getElementById("g").innerHTML = g;
+function mojaFunkcja(a, b) {
+    return a * b;
+}
