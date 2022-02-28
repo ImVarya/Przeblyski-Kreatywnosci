@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myRoboto;
+    src: url(./Roboto-Bold.ttf);
+ }
+html {
+    height: 100%;
+}
+body {
+    background: linear-gradient(to bottom right, #7963EE, #229DFB);
+}
+
+#input {
+    height: 242px;
+    width: 331px;
+    left: 300px;
+    top: 415px;
+    position: absolute;
+    background-color: #FFFFFF;
+    outline: 4px solid rgba(51, 51, 51, 0.33);
+    border-radius: 10px;
+}
+
+#value {
+    background-color: transparent;
+    color: #707070;
+    font-size: 27px;
+    font-family: myRoboto;
+    position: relative;
+    left: 132px;
+    top: 47px;
+}
+
+#change {
+    width: 186px;
+    height: 72px;
+    position: absolute;
+    left: 879px;
+    top: 589px;
+    background-color: #FFFFFF;
+    outline: 4px solid rgba(51, 51, 51, 0.33);
+    border-radius: 10px;
+}
+
+#nazwa {
+    background-color: transparent;
+    color: #707070;
+    font-size: 27px;
+    font-family: myRoboto;
+    position: relative;
+    left: 47px;
+    top: 19px;
+}
+
