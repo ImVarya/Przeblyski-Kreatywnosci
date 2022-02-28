@@ -57,3 +57,46 @@ body {
     top: 19px;
 }
 
+#color {
+    height: 242px;
+    width: 331px;
+    left: 1289px;
+    top: 419px;
+    position: absolute;
+    background-color: #DB3A3A;
+    outline: 4px solid rgba(51, 51, 51, 0.33);
+    border-radius: 10px;
+}
+
+#rectangle {
+    height: 41px;
+    width: 132px;
+    left: 878px;
+    top: 474px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 4px solid #4963B3;
+    border-right: none;
+    z-index: 3;
+}
+
+#triangle {
+    left: 1011px;
+    top: 440px;
+    position: absolute;
+	border-top: 58px solid transparent;
+	border-left: 90px solid #4963B3;
+	border-bottom: 58px solid transparent;
+    z-index: 1;
+}
+
+#small {
+    left: 1014px;
+    top: 446px;
+    position: absolute;
+	border-top: 52px solid transparent;
+	border-left: 82px solid #FFFFFF;
+	border-bottom: 52px solid transparent;
+    z-index: 2;
+}
+
