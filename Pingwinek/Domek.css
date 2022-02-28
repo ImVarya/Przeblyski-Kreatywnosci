@@ -61,8 +61,8 @@ button {
     height: 40px;
     width: 70px;
     text-align: center;
-    background-color: rgb(8, 6, 6);
-    color: rgb(240, 240, 227);
+    background-color: rgb(241, 255, 251);
+    color: rgb(8, 12, 19);
     border: none;
     position: absolute;
     top: 0;
@@ -72,5 +72,5 @@ button {
 }
 
 button:hover {
-    color: rgb(245, 225, 200);
+    color: rgb(244, 194, 253);
 }

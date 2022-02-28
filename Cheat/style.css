@@ -68,4 +68,21 @@ button {
     padding-top: 20px;
     color: aliceblue;
 }
+#exit {
+height: 40px;
+width: 70px;
+text-align: center;
+background-color: rgb(241, 255, 251);
+color: rgb(8, 12, 19);
+border: none;
+position: absolute;
+top: -20%;
+left: 0%;
+font-size: 20px;
+font-weight: 550;
+cursor: pointer;
+}
 
+#exit:hover {
+    color: rgb(244, 194, 253);
+}
