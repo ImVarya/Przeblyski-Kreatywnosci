@@ -56,21 +56,3 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-
-button {
-    height: 40px;
-    width: 70px;
-    text-align: center;
-    background-color: rgb(241, 255, 251);
-    color: rgb(8, 12, 19);
-    border: none;
-    position: absolute;
-    top: 0;
-    font-size: 20px;
-    font-weight: 550;
-    cursor: pointer;
-}
-
-button:hover {
-    color: rgb(244, 194, 253);
-}
