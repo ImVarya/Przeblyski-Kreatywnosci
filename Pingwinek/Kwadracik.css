@@ -1,21 +1,23 @@
 body {
     background: rgb(210, 194, 231);
 }
+
 .square {
     width: 500px;
     height: 500px;
-    
 }
+
 .small-square {
     width: 200px;
     height: 200px;
-    
 }
+
 .black-border {
     border-color: black;
     border-width: 5px;
     border-style: solid;
 }
+
 .center {
     position: absolute;
         top: 50%;
@@ -25,7 +27,6 @@ body {
 }
 
 p {
-        
      position: absolute;
         top: 50%;
         left: 50%;
@@ -33,20 +34,20 @@ p {
         transform: translate(-50%, -50%) }
 
 button {
-    background: transparent;
-    color: black;
+    height: 40px;
+    width: 70px;
     text-align: center;
-    font-size: 50px;
-    top: -2%;
-    left: 1%;
-    bottom: 90%;
-    position: absolute;
+    background-color: rgb(241, 255, 251);
+    color: rgb(8, 12, 19);
     border: none;
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    font-weight: 550;
     cursor: pointer;
 }
 
 button:hover {
-    color:rgb(55, 81, 228);
+    color: rgb(244, 194, 253);
 }
    
- 

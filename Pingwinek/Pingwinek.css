@@ -11,12 +11,11 @@ body {
 .napis {
     color: rgba(255, 255, 255, 0.931);
     font-size: 100px;
-    font-weight: 500; 
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding-top: 20px;
 }
-
 
 .Pingwinek {
     --skóra-pingwinka: rgb(36, 33, 33);
@@ -33,7 +32,6 @@ body {
     animation-name: slide;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    
 }
 
 @keyframes slide {
@@ -59,7 +57,6 @@ body {
     height: 70%;
     border-radius: 50% 50% 60% 60%;
     z-index: -1;
-    
 }
 
 .Głowa {
@@ -70,7 +67,6 @@ body {
     height: 50%;
     border-radius: 60% 60% 55% 55%;
     z-index: 1;
-    
 }
 
 .brzuszek {
@@ -82,7 +78,6 @@ body {
     border-radius: 60% 60% 70% 70%;
     margin-left: 5%;
     z-index: -2;
-    
 }
 
 .twarz {
@@ -93,7 +88,6 @@ body {
     height: 80%;
     border-radius: 50% 50% 55% 55%;
     z-index: 1;
-    
 }
 
 .lewe-oko {
@@ -104,7 +98,6 @@ body {
     height: 15%;
     border-radius: 50%;
     z-index: 2;
-    
 }
 
 .prawe-oko {
@@ -115,7 +108,6 @@ body {
     height: 15%;
     border-radius: 50%;
     z-index: 2;
-    
 }
 
 .górny-dziubek {
@@ -126,7 +118,6 @@ body {
     height: 10%;
     border-radius: 50%;
     z-index: 3;
-    
 }
 
 .dolny-dziubek {
@@ -137,7 +128,6 @@ body {
     height: 7%;
     border-radius: 50%;
     z-index: 3;
-    
 }
 
 .lewa-noga {
@@ -224,18 +214,19 @@ body {
 }
 
 button {
-    background: transparent;
-    color: white;
+    height: 40px;
+    width: 70px;
     text-align: center;
-    font-size: 50px;
-    top: -2%;
-    left: 1%;
-    bottom: 90%;
-    position: absolute;
+    background-color: rgb(241, 255, 251);
+    color: rgb(8, 12, 19);
     border: none;
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    font-weight: 550;
     cursor: pointer;
 }
 
 button:hover {
-    color:rgb(251, 171, 104);
+    color: rgb(244, 194, 253);
 }
