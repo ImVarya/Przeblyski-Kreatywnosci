@@ -98,7 +98,34 @@ body {
     height: 51px;
     width: 202px;
     position: absolute;
-    top: 540px;
+    top: 520px;
+    left: 365px;
+    outline: 4px solid rgba(51, 51, 51, 0.33);
+    border-radius: 10px;
+    color: #707070;
+    font-size: 27px;
+    font-family: myRoboto;
+}
+
+#pick {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    top: 595px;
+    left: 490px;
+    outline: 4px solid rgba(51, 51, 51, 0.33);
+    border-radius: 10px;
+    color: #707070;
+    font-size: 27px;
+    font-family: myRoboto;
+}
+
+#colorPicker {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 595px;
     left: 365px;
     outline: 4px solid rgba(51, 51, 51, 0.33);
     border-radius: 10px;
