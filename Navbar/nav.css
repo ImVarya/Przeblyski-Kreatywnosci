@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myRoboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#tekst {
+    font-family: myRoboto;
+    font-size: 33px;
+    margin-left: 5%;
+    color: #414141;
+}
+
+#linki {
+    font-family: myRoboto;
+    font-size: 23px;
+    color: #414141;
+    margin-right: 10%;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+    position: relative;
+}
+
+img {
+    position: relative;
+    display: inline;
+    size: 23px;
+    margin-right: 10px;
+}
+
+.napisy {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    cursor: pointer;
+    font-family: myRoboto;
+    color: #414141;
+}
+
+a > img {
+    margin-bottom: -3px;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    top: 67px;
+    left: 25px;
+    height: 10px;
+    width: 125px;
+    background-color: #5096F1;
+    border-radius: 8px;
+    animation: appear 1s linear;
+}
+
+@keyframes appear {
+    from {
+        width: 0;
+    }
+    to {
+        width: 125px;
+    }
+}
