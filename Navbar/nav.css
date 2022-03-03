@@ -55,6 +55,9 @@ img {
     font-family: myRoboto;
     color: #414141;
 }
+.svg {
+    fill: #C0C0C0;
+}
 
 a > img {
     margin-bottom: -3px;
@@ -79,4 +82,11 @@ a > img {
     to {
         width: 125px;
     }
+}
+
+a:hover {
+    color: #5096F1;
+}
+.svg:hover {
+    filter: invert(50%) sepia(88%) saturate(1064%) hue-rotate(191deg) brightness(96%) contrast(97%);
 }
