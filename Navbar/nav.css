@@ -35,7 +35,7 @@
     margin-right: 10%;
 }
 
-li {
+ul li {
     display: inline;
     padding: 30px;
     position: relative;
@@ -63,13 +63,13 @@ a > img {
     margin-bottom: -3px;
 }
 
-.active::after {
+li.active::after {
     content: "";
     position: absolute;
     top: 67px;
     left: 25px;
     height: 10px;
-    width: 125px;
+    width: 80%;
     background-color: #5096F1;
     border-radius: 8px;
     animation: appear 1s linear;
@@ -80,7 +80,7 @@ a > img {
         width: 0;
     }
     to {
-        width: 125px;
+        width: 80%;
     }
 }
 
