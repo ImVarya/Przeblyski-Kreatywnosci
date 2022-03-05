@@ -84,9 +84,32 @@ li.active::after {
     }
 }
 
-a:hover {
+.napisy:hover {
     color: #5096F1;
-}
-.svg:hover {
     filter: invert(50%) sepia(88%) saturate(1064%) hue-rotate(191deg) brightness(96%) contrast(97%);
 }
+
+
+
+@media only screen and (max-width: 1007px) {
+    #nav {
+        position: fixed;
+        width: 1007px;
+        height: 66px;
+        background-color: white;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+ }
+
+ @media only screen and (max-width: 640px) {
+    #nav {
+        position: fixed;
+        width: 640px;
+        height: 66px;
+        background-color: white;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+ }
