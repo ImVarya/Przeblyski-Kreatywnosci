@@ -5,7 +5,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: rgb(130, 216, 255);
+    background-color: rgb(102, 207, 255);
 }
 
 .title {
@@ -37,4 +37,28 @@ body {
     left: var(--bird-size);
     top: calc(var(--bird-top) * 1px);
     border-radius: 50%;
+}
+
+.pipe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(var(--pipe-width) * 1px);
+    left: calc(var(--pipe-left) * 1px);;
+}
+
+.pipe > .segment {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(23, 217, 49);
+}
+
+.pipe > .top {
+    top: 0;
+    bottom: calc(var(--hole-top) * 1px);;
+}
+
+.pipe > .bottom {
+    bottom: 0;
+    top: calc(100vh - (var(--hole-top) * 1px) + calc(var(--hole-height) * 1px));
 }
