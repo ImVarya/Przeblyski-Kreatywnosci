@@ -1,6 +1,6 @@
-import ball from "./ball";
+import Ball from "./ball.js";
 
-const ball = new ball(document.getElementById("ball"))
+const ball = new Ball(document.getElementById("ball"))
 
 let lastTime
 function update(time) {
