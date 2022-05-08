@@ -27,6 +27,7 @@ body {
 
 .paddle.left {
     left: 1vw;
+    height: 25vh;
 }
 
 .paddle.right {
