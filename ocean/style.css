@@ -51,7 +51,7 @@ body {
   z-index: 100;
   color: white;
   text-shadow: 0 0 5px hsl(0, 0, 0%, .5);
-  left: 50vmin;
+  left: 50vmax;
   font-size: 6vmin;
   opacity: .85;
   margin: 0;
@@ -65,9 +65,19 @@ body {
   left: 0;
 }
 
-.thrash {
+.trash {
   position: absolute;
   opacity: .75;
+  animation: bob 2s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+  from {
+    transform: rotate(var(--rotation)) translateY(1vh);
+  }
+  to {
+    transform: rotate(calc(var(--rotation) + 10deg)) translateY(0);
+  }
 }
 
 :root {
