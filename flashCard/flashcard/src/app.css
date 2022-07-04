@@ -5,6 +5,8 @@ html {
 body {
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
 .card-grid {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(211px, 1fr));
     gap: 1rem;
 }
 
