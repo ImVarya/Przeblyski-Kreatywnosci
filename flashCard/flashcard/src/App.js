@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import FlashCard from "./FlashCard";
 import FlashList from "./FlashList";
 import "./app.css"
@@ -9,21 +9,21 @@ function App() {
 
   useEffect(() => {
     axios
-    .get('https://opentdb.com/api.php?amount=10')
-    .then(res => {
-      setFlashcards(res.data.results.map((questionItem, index) => {
-        const answer = decodeString(questionItem.correct_answer)
-        const options = [
-          ...questionItem.incorrect_answers.map(a => decodeString(a)),
-          answer]
-        return {
-          id: `${index}-${Date.now}`,
-          question: decodeString(questionItem.question),
-          answer:answer,
-          options: options.sort(() => Math.random() - .5)
-        }
-      }))
-    })
+      .get('https://opentdb.com/api.php?amount=10')
+      .then(res => {
+        setFlashcards(res.data.results.map((questionItem, index) => {
+          const answer = decodeString(questionItem.correct_answer)
+          const options = [
+            ...questionItem.incorrect_answers.map(a => decodeString(a)),
+            answer]
+          return {
+            id: `${index}-${Date.now}`,
+            question: decodeString(questionItem.question),
+            answer: answer,
+            options: options.sort(() => Math.random() - .5)
+          }
+        }))
+      })
   }, [])
 
   function decodeString(str) {
@@ -32,10 +32,22 @@ function App() {
     return textArea.value
   }
 
+  function handleSubmit(e) {
+    e.preventDefault()
+  }
+
   return (
-    <div className="container">
-    <FlashList flashcards={flashcards} />
-    </div>
+    <>
+      <form className="header" onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlForm="category">Category</label>
+          <select id="category" ref={categoryEl}></select>
+        </div>
+      </form>
+      <div className="container">
+        <FlashList flashcards={flashcards} />
+      </div>
+    </>
   );
 }
 
