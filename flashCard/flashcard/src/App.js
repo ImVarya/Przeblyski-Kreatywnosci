@@ -12,12 +12,12 @@ function App() {
 
   useEffect(() => {
     axios.get('https://opentdb.com/api_category.php')
-    .then(res => {
-      setCategories(res.data.trivia_categories)
-    })
+      .then(res => {
+        setCategories(res.data.trivia_categories)
+      })
   }, [])
 
-  useEffect(() => {}, [])
+  useEffect(() => { }, [])
 
   function decodeString(str) {
     const textArea = document.createElement('textarea')
