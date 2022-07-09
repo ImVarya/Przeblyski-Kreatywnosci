@@ -1,0 +1,28 @@
+body {
+    background: #62306D;
+    padding: 42px;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.flex,
+.flex1 {
+    display: flex;
+}
+
+.pur {
+    background: #62306D;
+}
+
+.up {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
